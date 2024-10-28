@@ -1,0 +1,4 @@
+pre-push:
+  commands:
+    - bundle exec jekyll build
+    - yarn danger local

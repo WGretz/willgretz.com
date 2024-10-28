@@ -1,0 +1,54 @@
+# Static Website
+  - [x] Blog
+  - [] Resume
+  - [x] Nix based dev environment
+
+# Powered by Obsidian
+  - [ ] Script to parse notes into specific format and folders
+    - [ ] Opt in via frontmatter
+    - [ ]Rules Engine
+    - [ ] Folder settings
+      - [ ] Jekyll path prefix (i.e. /notes/, /stats/)
+      - [ ] Jekyll subfolder (i.e. _notes/, _stats/)
+      - [ ] Optional frontmatter defaults
+        - [ ] layout
+        - [ ] title format
+        - [ ] tags
+        - [ ] tags_merge (this will always be merged with any provided tags or even default tags)
+    - [ ] Tag settings
+      - [ ] Redact Tags
+      - [ ] Skip tags
+      - [ ] Do not include tags
+    - [ ] Frontmatter options
+      - [ ] skip
+      - [ ] path
+      - [ ] slug
+      - [ ] tags
+      - [ ] created
+      - [ ] updated
+    - [ ] vault thing
+      - [ ] json representing notes
+        - [ ] array of notes
+          - [ ] title
+          - [ ] tags
+          - [ ] path
+          - [ ] frontmatter
+          - [ ] links
+            - [ ] missing
+            - [ ] incoming
+            - [ ] outgoing
+          - [ ] dataview
+          - [ ] created
+          - [ ] updated
+  - [ ] Dry run
+    - [ ] list files changed
+    - [ ] Specific file
+    - [ ] Show all generated files (only new/update)
+  - [ ] Run from docker
+    - [ ] Make pull requests to private repo
+    - [ ] Merging pull requests in private repo pushes to public repo~
+
+  - [ ] Add Github actions for CI/CD
+    - [ ] Build
+    - [ ] Spellcheck
+    - [ ] Danger
