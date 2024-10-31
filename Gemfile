@@ -10,3 +10,4 @@ gem "jekyll-feed"
 gem "jekyll-seo-tag"
 gem 'jekyll-toc'
 gem 'lefthook'
+gem 'danger'
