@@ -9,7 +9,8 @@ entries:
         url: https://github.com/wgretz
       - title: Learn about me
         url: /about
-
+      - title: See what I'm up to
+        url: /now
   - title: my <a href="/blog">musings</a>
     post_list:
       limit: 5
@@ -34,6 +35,3 @@ entries:
           - title: with subsubitems
           - title: example page
             url: about
-  - title: PRO TIP
-    entries:
-      - title: to edit this menu, edit _data/menu.yml file

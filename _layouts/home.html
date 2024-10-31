@@ -1,28 +1,5 @@
 ---
 layout: default
 ---
-<!-- Text Color (#FFFFFF) -->
-<p style="color: #FFFFFF;">Lorem ipsum dolor sit amet.</p>
-
-<!-- Primary Accent Color (#00BFFF) -->
-<p style="color: #00BFFF;">Consectetur adipiscing elit sed.</p>
-
-<!-- Secondary Accent Color (#FF1493) -->
-<p style="color: #FF1493;">Eiusmod tempor incididunt ut labore.</p>
-
-<!-- Additional Accent Color (#8A2BE2) -->
-<p style="color: #8A2BE2;">Dolore magna aliqua ut enim.</p>
-
-<!-- Optional Accent Color (#FFD700) -->
-<p style="color: #FFD700;">Ad minim veniam quis nostrud.</p>
-
-<header>
-  <h1>{{ site.title }}</h1>
-  {%-if site.theme_config.show_description-%}
-    <p>{{ site.description }}</p>
-  {%-endif-%}
-</header>
-
-{%-include menu_item.html collection=site.data.menu.entries-%}
 
 {{ content }}
