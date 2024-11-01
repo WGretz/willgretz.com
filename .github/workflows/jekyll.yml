@@ -27,6 +27,11 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  danger:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Danger
+        run: bundle exec danger
   # Build job
   build:
     environment:
