@@ -27,6 +27,11 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  danger:
+    uses: danger/danger-action@v1.0.0
+    with:
+      dangerfile_path: dangerfile.rb
+
   # Build job
   build:
     environment:
